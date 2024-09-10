@@ -75,7 +75,7 @@ table td:hover{
     background-color: rgba(0, 42, 50, 0.856);
 }
 
-@media(max-width : 480px){
+@media(max-width : 360px){
     section{
         width: 80%;
         height: 92vh;
