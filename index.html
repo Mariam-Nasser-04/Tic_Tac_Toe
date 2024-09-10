@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Teo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <section>
+        <div id="turn">Player X </div><button id="btn" onclick="reset()">Restart</button>
+            <div class="game">
+                <table>
+                    <tr>
+                        <td id="b1" class="xo" onclick="fun('b1')"></td>
+                        <td id="b2" class="xo" onclick="fun('b2')"></td>
+                        <td id="b3" class="xo" onclick="fun('b3')"></td>
+                    </tr>
+                    <tr>
+                        <td id="b4" class="xo" onclick="fun('b4')"></td>
+                        <td id="b5" class="xo" onclick="fun('b5')"></td>
+                        <td id="b6" class="xo" onclick="fun('b6')"></td>
+                    </tr>
+                    <tr>
+                        <td id="b7" class="xo" onclick="fun('b7')"></td>
+                        <td id="b8" class="xo" onclick="fun('b8')"></td>
+                        <td id="b9" class="xo" onclick="fun('b9')"></td>
+                    </tr>
+                </table>
+            </div>
+        <div id="result"></div>
+    </section>
+    
+</body>
+</html>
