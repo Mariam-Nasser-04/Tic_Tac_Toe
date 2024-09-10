@@ -74,3 +74,27 @@ table td{
 table td:hover{
     background-color: rgba(0, 42, 50, 0.856);
 }
+
+@media(max-width : 480px){
+    section{
+        width: 80%;
+        height: 92vh;
+    }
+    table tr{
+        width: 200px;
+        height: 10px;
+    }
+    table td{
+        width: 30px;
+        height: 30px;
+        font-size: 1.2em;
+    }
+    #turn , #result{
+        font-size: 25px;
+      }
+    #btn{
+        left: 65%;
+        top: 35px;
+    }
+
+}
